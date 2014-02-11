@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DAViewController : UIViewController
+@interface DAViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, UIToolbarDelegate>
 
 @end
